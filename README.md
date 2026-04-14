@@ -13,7 +13,7 @@
 ### Датасет
 - **Источник:** `sklearn.datasets.fetch_california_housing`
 - **Наблюдений:** 20 640
-- **Признаков:** 8
+- **Признаков:** 9
 - **Целевая переменная:** MedHouseVal — медианная стоимость жилья (в единицах $100 000)
 
 ---
@@ -94,6 +94,7 @@
 pip install -r requirements.txt
 ```
 
+---
 ## 📁 Структура репозитория
 ```text
 ├── regression_analysis_coursework.ipynb   # основной ноутбук с кодом
