@@ -1,0 +1,48 @@
+# Jupyter Notebook
+*.ipynb~
+__pycache__/
+
+.gitignor
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+__pycache__/
+
+# Environment
+.env
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and outputs
+*.log
+*.tmp
+
+# Large files (если вдруг появятся)
+*.h5
+*.parquet
+*.pkl
+*.pickle
+
+# Не загружаем сами данные (датасет скачивается при запуске кода)
+# Но если вы сохраняли df в csv — раскомментируйте строку ниже:
+# *.csv
+
+# OS
+Thumbs.db
+.DS_Store
